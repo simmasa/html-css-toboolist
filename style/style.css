@@ -1,7 +1,7 @@
-*{
+* {
     margin: 0;
 }
-/* Common */
+/* Layout */
 body {
     background-color: rgb(241, 241, 241);
     padding: 0px;
@@ -13,10 +13,7 @@ body {
     padding: 7px 10px;
     border-radius: 5px;
 }
-.blueBg {
-    background-color: #22AFF5;
-    color: white;
-}
+
 .whiteBtn {
     color: rgb(103, 103, 103);
 }
@@ -33,6 +30,69 @@ body {
     line-height: 15px;
     padding: 10px 0px 0px;
 }
+.taskTag {
+    margin: 0px 5px;
+    line-height: 15px;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 11px;
+}
+.container {
+    width: 70%;
+    margin: 5% auto;
+    background-color: white;
+    border-radius: 5px;
+}
+.navbar {
+    background-color: white;
+    padding: 10px 20px;
+}
+.menuBar {
+    padding: 1em 3em;
+    border-bottom: 1px solid lightgrey;
+}
+h1 {
+    font-weight: bolder;
+}
+.list {
+    padding: 1em 1em;
+}
+ul {
+    padding:0;
+}
+
+/* Common */
+.blueBg {
+    background-color: #22AFF5;
+    color: white;
+}
+.whiteBtn {
+    color: rgb(103, 103, 103);
+}
+
+/* Task colors */
+.Q1Goals{
+    background-color: #AB5DE6;
+    color: white;
+}
+.recruit{
+    background-color: #2CC6AB;
+    color: white;
+}
+.mobile{
+    background-color: #FF9B00;
+    color: white;
+}
+.website {
+    background-color: #EC4A9D;
+    color: white;
+}
+.sale {
+    background-color: #A3D117;
+    color: white;
+}
+
+/* Checkmarks */
 .checkmark {
     width: 8px;
     height: 8px;
@@ -60,56 +120,4 @@ body {
     display: inline-block;
     line-height: 15px;
     color: red;
-}
-.taskTag {
-    margin: 0px 5px;
-    line-height: 15px;
-    padding: 5px;
-    border-radius: 15px;
-    font-size: 11px;
-}
-/* Layout */
-.container {
-    width: 70%;
-    margin: 5% auto;
-    background-color: white;
-    border-radius: 5px;
-}
-.navbar {
-    background-color: white;
-    padding: 10px 20px;
-}
-.menuBar {
-    padding: 1em 3em;
-    border-bottom: 1px solid lightgrey;
-}
-h1 {
-    font-weight: bolder;
-}
-.list {
-    padding: 1em 1em;
-}
-ul {
-    padding:0;
-}
-/* Task colors */
-.Q1Goals{
-    background-color: #AB5DE6;
-    color: white;
-}
-.recruit{
-    background-color: #2CC6AB;
-    color: white;
-}
-.mobile{
-    background-color: #FF9B00;
-    color: white;
-}
-.website {
-    background-color: #EC4A9D;
-    color: white;
-}
-.sale {
-    background-color: #A3D117;
-    color: white;
 }

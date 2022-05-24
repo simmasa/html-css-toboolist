@@ -5,6 +5,20 @@
 body {
     background-color: lightgrey;
     padding: 0px;
+    font-family: sans-serif;
+}
+.btn {
+    margin: 0px 3px;
+    border: 1px solid lightgray;
+    padding: 7px 10px;
+    border-radius: 5px;
+}
+.blueBg {
+    background-color: #22AFF5;
+    color: white;
+}
+.whiteBtn {
+    color: rgb(103, 103, 103);
 }
 
 /* Layout */
@@ -12,11 +26,16 @@ body {
     width: 80%;
     margin: 5% auto;
     background-color: white;
-    padding: 15px;
+    border-radius: 5px;
 }
 .navbar {
     background-color: white;
+    padding: 10px 20px;
+}
+.menuBar {
+    padding: 1em 3em;
+    border-bottom: 1px solid lightgrey;
 }
 h1 {
-
+    font-weight: bolder;
 }

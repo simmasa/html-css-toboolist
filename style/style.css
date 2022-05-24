@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+}
+/* Common */
+body {
+    background-color: lightgrey;
+    padding: 0px;
+}
+
+/* Layout */
+.container {
+    width: 80%;
+    margin: 5% auto;
+    background-color: white;
+    padding: 15px;
+}
+.navbar {
+    background-color: white;
+}
+h1 {
+
+}

@@ -13,10 +13,6 @@ body {
     padding: 7px 10px;
     border-radius: 5px;
 }
-
-.whiteBtn {
-    color: rgb(103, 103, 103);
-}
 .agendaLI {
     list-style-type: none;
     font-weight: bold;
